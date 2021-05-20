@@ -22,12 +22,12 @@ body {
   background: #674baf;
 }
 
-.main {
-  height: 50vh;
+button {
+  cursor: pointer;
 }
 
-.register {
-  height: 50vh;
+.main {
+  height: 30vh;
 }
 
 .header__img {
@@ -42,29 +42,76 @@ body {
 }
 
 .mockups {
-  height: 50vh;
+  height: 100%;
   background: no-repeat url("../images/illustration-mockups.svg");
   background-size: contain;
+  background-position: center;
 }
 
 .register {
   color: white;
+  text-align: center;
+  padding: 2rem;
 }
 
 .register__heading {
   font-family: 'Poppins', sans-serif;
+  font-size: 1.6rem;
+  margin: 0 auto 1rem auto;
+  max-width: 13em;
 }
 
 .register__paragraph {
   font-family: 'Open Sans', sans-serif;
+  margin: 0 auto 1.5rem auto;
+  max-width: 19em;
+}
+
+.register__btn {
+  color: #674baf;
+  background-color: white;
+  border: none;
+  padding: 1rem 4rem;
+  border-radius: 30px;
+  width: 100%;
+  max-width: 270px;
+  -webkit-transition: background-color 0.1s ease-in-out;
+  transition: background-color 0.1s ease-in-out;
+  margin-bottom: 3rem;
+}
+
+.register__btn:hover {
+  background-color: #e882e8;
+}
+
+.register__icons {
+  margin-bottom: 1rem;
+}
+
+.register__icon {
+  cursor: pointer;
+  border: 1px solid white;
+  border-radius: 50%;
+  padding: 8px;
+  text-align: center;
+  margin-right: 0.5rem;
+  -webkit-transition: background-color border 0.1s ease-in-out;
+  transition: background-color border 0.1s ease-in-out;
+}
+
+.register__icon:hover {
+  color: #e882e8;
+  border: 1px solid #e882e8;
 }
 
 .attribution {
   font-size: 11px;
   text-align: center;
+  color: white;
+  margin-bottom: 1rem;
 }
 
 .attribution a {
-  color: #3e52a3;
+  color: #e882e8;
 }
 /*# sourceMappingURL=style.css.map */
