@@ -52,18 +52,21 @@ button {
 
 .register__heading {
   font-family: 'Poppins', sans-serif;
+  font-weight: 600;
   font-size: 1.6rem;
   margin: 0 auto 1rem auto;
   max-width: 13em;
 }
 
 .register__paragraph {
-  font-family: 'Open Sans', sans-serif;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 400;
   margin: 0 auto 1.5rem auto;
   max-width: 19em;
 }
 
 .register__btn {
+  font-family: 'Open-Sans', sans-serif;
   color: #674baf;
   background-color: white;
   border: none;
@@ -156,6 +159,21 @@ button {
         -ms-flex: 1;
             flex: 1;
     padding: 0;
+    text-align: left;
+    margin-left: 3rem;
+  }
+  .register__heading {
+    font-size: 2rem;
+    margin: 0;
+  }
+  .register__paragraph {
+    font-size: 1.2rem;
+    margin: 2rem 0;
+    max-width: 90%;
+  }
+  .register__btn {
+    width: 220px;
+    font-size: 1.2rem;
   }
 }
 /*# sourceMappingURL=style.css.map */
