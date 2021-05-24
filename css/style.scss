@@ -83,6 +83,8 @@ button {
     max-width: 270px;
     transition: background-color 0.1s ease-in-out;
     margin-bottom: 3rem;
+    -webkit-box-shadow: 11px 12px 31px -5px rgba(0, 0, 0, 0.37);
+    box-shadow: 11px 12px 31px -5px rgba(0, 0, 0, 0.37);
 
     &:hover {
       background-color: $magenta;
@@ -156,21 +158,33 @@ button {
     background-position: center;
   }
 
+  .flex-wrapper {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+
   .register {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
     flex: 1;
     padding: 0;
     text-align: left;
     margin-left: 3rem;
+    height: 100vh;
 
     &__heading {
-      font-size: 2rem;
+      font-size: 3rem;
       margin: 0;
+      max-width: 35rem;
     }
 
     &__paragraph {
       font-size: 1.2rem;
       margin: 2rem 0;
-      max-width: 90%;
+      max-width: 37rem;
     }
 
     &__btn {
@@ -178,7 +192,14 @@ button {
       font-size: 1.2rem;
     }
 
+    &__icons {
+      flex: 0;
+      align-self: flex-end;
+      margin-right: 5rem;
+    }
+
     &__icon {
+      padding: 12px;
     }
   }
 }
